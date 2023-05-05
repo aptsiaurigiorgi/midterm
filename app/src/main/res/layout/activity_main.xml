@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8c0073"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        android:radius="15dp"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:radius="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/logbtn"
+            android:text="Log in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:text="Sign Up"
+            android:id="@+id/signUPbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
